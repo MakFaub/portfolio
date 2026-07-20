@@ -1,16 +1,75 @@
-# React + Vite
+# Makaela Fauber — Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)](https://reactjs.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+[![DaisyUI](https://img.shields.io/badge/DaisyUI-1AD1A5?style=flat&logo=daisyui&logoColor=white)](https://daisyui.com/)
 
-Currently, two official plugins are available:
+A personal portfolio site showcasing my computer science projects, resume, and certifications.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+🔗 **Live Site:** [Coming soon]
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 👋 About Me
 
-## Expanding the ESLint configuration
+[Add a short bio here — e.g., who you are, what you're studying, what you're passionate about in CS, and what you're looking for (internships, opportunities, etc.)]
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🚀 Projects
+
+Below are some of the projects featured on this site, mostly developed during my coursework.
+
+### [Project Name 1]
+[Add a short description — what it does, what problem it solves, and any notable challenges or features.]
+- **Tech Stack:** [e.g., Python, Flask, SQLite]
+- **Links:** [GitHub Repo] | [Live Demo]
+
+### [Project Name 2]
+[Add a short description]
+- **Tech Stack:** [ ]
+- **Links:** [GitHub Repo] | [Live Demo]
+
+### [Project Name 3]
+[Add a short description]
+- **Tech Stack:** [ ]
+- **Links:** [GitHub Repo] | [Live Demo]
+
+> *More projects coming soon as I continue building!*
+
+---
+
+## 📄 Resume
+
+My resume is available for download/viewing directly on the site.
+
+- [View/Download Resume](#) *(add link or file path)*
+
+---
+
+## 🎓 Certifications
+
+**Google Data Analytics Professional Certificate**
+[Add a sentence about what the certification covers and what you learned, e.g., data cleaning, visualization, SQL, R programming, Tableau, etc.]
+
+- [View Certificate](#) *(add link)*
+
+---
+
+## 🛠️ Built With
+
+- [React](https://reactjs.org/) — front-end library
+- [Tailwind CSS](https://tailwindcss.com/) — utility-first styling
+- [DaisyUI](https://daisyui.com/) — component library for Tailwind
+
+---
+
+## 📬 Contact
+
+- **Email:** makaelafauber@gmail.com
+- **LinkedIn:** linkedin.com/in/makaelafauber
+- **GitHub:** github.com/MakFaub
+
+---
+
+*Thanks for stopping by! This portfolio is a work in progress and will be updated as I complete new projects.*
