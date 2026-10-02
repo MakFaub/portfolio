@@ -86,10 +86,58 @@ Python with xarray (multidimensional NetCDF data), NumPy, and pandas. SciPy for 
 #### Team
 Built by a team of 2 for CU Boulder's Numerical Computation course.
 
-### [Project Name 3]
-[Add a short description]
-- **Tech Stack:** [ ]
-- **Links:** [GitHub Repo] | [Live Demo]
+### Clueless
+A fully object-oriented implementation of the classic board game *Clue*, built to practice clean design and common design patterns.
+
+#### 📂 [Github Repo](https://github.com/MakFaub/makaela-michael-ooad4448-clueless) 
+
+#### The Game
+Players move through a mansion, gather clues, and try to deduce three things: the suspect 👤, the weapon 🗡️, and the room 🏠. This version uses a modified rule set and a custom map, because we scoped it to what could be designed and built well within the course timeline.
+
+*Clueless* differs from *Clue* slightly as we decided to add special artifact pieces to give players on-time abilities that affect gameplay.
+- The **Concealment Artifact** allows players to obscure themselves to spy on another player, gaining visibility to 1 random card within the other player's hand.
+- The **Summon Artifact** allows a player to choose a weapon to summon to their current room.
+- The **Transport Artifact** allows a player to transport to a room of their choosing.
+
+#### Design Highlights
+The goal was a clean separation of responsibilities, so game rules, setup, and presentation can each change without breaking the others.
+
+- **Factory pattern** (CardFactory, PieceFactory, ArtifactFactory): Centralizes the creation of cards, pieces, and artifacts, so adding a new card or piece type doesn't mean changing the code that uses it.
+
+- **Builder pattern** (GameAdapter): Handles game setup step by step: the board, players, decks, and starting rooms for every piece. Setup is configured in one place instead of scattered through the game logic.
+
+- **Observer pattern** (GameObserver): Tracks game events such as turns, suggestions, accusations, and card reveals, including those triggered by artifacts. The UI and logging listen for these events without being tied into the game state, so either can change independently.
+
+- **Interface** for dice (Die): Abstracts dice rolling, which makes the game logic easy to test with predictable rolls.
+
+#### Class structure
+| Category   | Classes                                                                |
+|------------|------------------------------------------------------------------------|
+| Game Play  | `GameObserver`, `GameAdapter`                                          |
+| Game Board | `Board`, `Space`, `Room`, `Hallway`                                    |
+| Cards      | `Card`, `Deck`, `RoomCard`, `SuspectCard`, `WeaponCard`, `CardFactory` |
+| Pieces     | `Piece`, `SuspectPiece`, `WeaponPiece`, `PieceFactory`                  |
+| Player     | `Player`, `Hand`                                                       |
+| Artifacts  | `Artifact`, `ArtifactFactory`                        
+
+| Interface | Purpose |
+|----------|--------|
+| `Die` | Dice rolling abstraction |
+| `GameObserver` | Observes game events |
+
+#### My contributions
+- **Artifacts**: Designed and implemented the custom artifact system (peek, teleport, summon) that extends the base game.
+- **Factories**: Implemented ArtifactFactory, CardFactory, and PieceFactory, the Factory pattern used to create all game objects.
+- **Observer pattern:** Implemented GameObserver, which reports turns, suggestions, accusations, and card reveals to the UI and logging.
+- **Commands**: Implemented all of the player action commands (Look, Move, Suggest, ShowCards, Summon, etc.)
+
+#### Tech stack
+Java, built with Gradle and tested with JUnit.
+
+#### Team and process
+Built by a team of 2 for CU Boulder's Object-Oriented Analysis and Design course.
+
+
 
 > *More projects coming soon as I continue building!*
 
