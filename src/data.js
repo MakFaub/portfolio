@@ -7,7 +7,7 @@ export const profile = {
   email: 'makaelafauber@gmail.com',
   github: 'https://github.com/MakFaub',
   linkedin: 'https://www.linkedin.com/in/makaelafauber',
-  resumeFile: 'makaela_fauber_resume_1.pdf',
+  resumeFile: 'fauber_resume.pdf',
 };
 
 export const navLinks = [
