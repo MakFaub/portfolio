@@ -12,7 +12,13 @@ A personal portfolio site showcasing my computer science projects, resume, and c
 
 ## 👋 About Me
 
-[Add a short bio here — e.g., who you are, what you're studying, what you're passionate about in CS, and what you're looking for (internships, opportunities, etc.)]
+Hi, I'm Makaela Fauber, a retail store manager and Computer Science student (CU Boulder, 2026) who likes working where stores, data, and software meet.
+
+I'm looking for roles that combine the two: product management, business analysis, operations management, and similar.
+
+#### 🔧 What I work with
+
+Python · Java · SQL · Looker · Excel · Agile (Scrum/Kanban)
 
 ---
 
@@ -43,7 +49,7 @@ Event info at CU is scattered, and neither the campus map nor Google Maps shows 
 We used automated unit tests (Mocha and Chai) on the critical routes /register, /login, and /new-event, plus user testing to check the experience with real students.
 
 #### Tech Stack
-Node.js, Express, PostgreSQL, Handlebars, Bootstrap, HTML/CSS, Mapbox API, Docker, Mocha, Chai, Render. Built with Git/GitHub and VS Code.
+JavaScript, Node.js, Express, PostgreSQL, Handlebars, Bootstrap, HTML/CSS, Mapbox API, Docker, Mocha, Chai, Render. Built with Git/GitHub and VS Code.
 
 #### Team & Process
 Built by a team of 4 for CU Boulder's software engineering course. We worked in 1-week Scrum sprints and tracked work with a Kanban board.
@@ -56,7 +62,7 @@ Built by a team of 4 for CU Boulder's software engineering course. We worked in 
 ### Global Sea Surface Temperature Trends and ENSO Analysis
 Numerical analysis of 175 years of global ocean temperature data, separating the long-term warming signal from short-term El Niño and La Niña swings.
 
-#### 📂 [GitHub Repo](https://github.com/MakFaub/csci-3656-final-project) • 📄 [Full Report (PDF)]
+#### 📂 [GitHub Repo](https://github.com/MakFaub/csci-3656-final-project) • 📄 [Full Report (PDF)](/public/CSCI_3656_Final_Report.pdf)
 
 #### The Question
 Sea surface temperature (SST) is a key indicator of climate change, but the data is noisy: seasonal cycles, sparse historical measurements, and natural events like El Niño can hide the long-term trend. This project asks how fast the oceans are warming, where, and how confident we can be.
@@ -137,26 +143,23 @@ Java, built with Gradle and tested with JUnit.
 #### Team and process
 Built by a team of 2 for CU Boulder's Object-Oriented Analysis and Design course.
 
-
-
-> *More projects coming soon as I continue building!*
-
 ---
 
 ## 📄 Resume
 
 My resume is available for download/viewing directly on the site.
 
-- [View/Download Resume](#) *(add link or file path)*
+- [View/Download Resume](/public/makaela_fauber_resume.pdf)
 
 ---
 
 ## 🎓 Certifications
 
 **Google Data Analytics Professional Certificate**
-[Add a sentence about what the certification covers and what you learned, e.g., data cleaning, visualization, SQL, R programming, Tableau, etc.]
 
-- [View Certificate](#) *(add link)*
+- [View Certificate](/public/fauber_google_analytics_cert.pdf)
+
+**Certificate in Writing – CU Boulder**
 
 ---
 

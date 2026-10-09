@@ -1,2 +1,87 @@
 @import "tailwindcss";
 @plugin "daisyui";
+
+/* Light theme: cool granite-white base, pine green primary, alpine blue secondary, summit gold accent */
+@plugin "daisyui/theme" {
+  name: "trailhead";
+  default: true;
+  color-scheme: light;
+  --color-base-100: #f6f8f7;
+  --color-base-200: #e8eeeb;
+  --color-base-300: #d3ddd9;
+  --color-base-content: #15231e;
+  --color-primary: #1f5f4a;
+  --color-primary-content: #f3faf7;
+  --color-secondary: #35679a;
+  --color-secondary-content: #f2f7fc;
+  --color-accent: #c9a227;
+  --color-accent-content: #1d1700;
+  --color-neutral: #1d2b26;
+  --color-neutral-content: #e6efeb;
+  --color-info: #3b82c4;
+  --color-info-content: #f2f8fd;
+  --color-success: #2f8f5b;
+  --color-success-content: #f1faf5;
+  --color-warning: #d49a1a;
+  --color-warning-content: #201500;
+  --color-error: #c4473a;
+  --color-error-content: #fdf3f2;
+  --radius-selector: 0.5rem;
+  --radius-field: 0.375rem;
+  --radius-box: 0.75rem;
+  --size-selector: 0.25rem;
+  --size-field: 0.25rem;
+  --border: 1px;
+  --depth: 0;
+  --noise: 0;
+}
+
+/* Dark theme: same palette, lifted for night reading */
+@plugin "daisyui/theme" {
+  name: "nightcamp";
+  default: false;
+  color-scheme: dark;
+  --color-base-100: #101a17;
+  --color-base-200: #16231f;
+  --color-base-300: #1f302a;
+  --color-base-content: #e3ece8;
+  --color-primary: #5fc4a0;
+  --color-primary-content: #06231a;
+  --color-secondary: #86b4e3;
+  --color-secondary-content: #071a2e;
+  --color-accent: #e0bf5a;
+  --color-accent-content: #231a00;
+  --color-neutral: #0b1210;
+  --color-neutral-content: #d5e1dc;
+  --color-info: #6aa8e0;
+  --color-info-content: #06192b;
+  --color-success: #5cc58a;
+  --color-success-content: #05210f;
+  --color-warning: #e6b43c;
+  --color-warning-content: #241800;
+  --color-error: #e5766a;
+  --color-error-content: #2b0905;
+  --radius-selector: 0.5rem;
+  --radius-field: 0.375rem;
+  --radius-box: 0.75rem;
+  --size-selector: 0.25rem;
+  --size-field: 0.25rem;
+  --border: 1px;
+  --depth: 0;
+  --noise: 0;
+}
+
+@theme {
+  --font-sans: "Source Sans 3", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Bricolage Grotesque", "Source Sans 3", ui-sans-serif, system-ui, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
