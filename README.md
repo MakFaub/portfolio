@@ -149,7 +149,7 @@ Built by a team of 2 for CU Boulder's Object-Oriented Analysis and Design course
 
 My resume is available for download/viewing directly on the site.
 
-- [View/Download Resume](/public/makaela_fauber_resume.pdf)
+- [View/Download Resume](/public/fauber_resume.pdf)
 
 ---
 
