@@ -6,7 +6,7 @@ function About() {
       <div className="mx-auto grid max-w-6xl gap-12 px-6 md:grid-cols-[auto_1fr] md:items-start">
         <div className="avatar avatar-placeholder">
           {/* Swap this for a photo: <img src="/headshot.jpg" alt="Makaela Fauber" /> */}
-          <div className="w-40 rounded-box bg-primary text-primary-content md:w-52">
+          <div className="w-40 rounded-box border border-base-300 bg-base-300 text-primary md:w-52">
             <span className="font-display text-5xl font-bold md:text-6xl">{profile.initials}</span>
           </div>
         </div>

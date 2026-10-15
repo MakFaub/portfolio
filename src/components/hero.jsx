@@ -6,7 +6,7 @@ function TopoBackground() {
 
   return (
     <svg
-      className="pointer-events-none absolute inset-0 h-full w-full text-primary opacity-25"
+      className="pointer-events-none absolute inset-0 h-full w-full text-base-content opacity-10"
       viewBox="0 0 1400 800"
       preserveAspectRatio="xMidYMid slice"
       aria-hidden="true"

@@ -6,7 +6,7 @@ function Resume() {
       <div className="mx-auto max-w-6xl px-6">
         <div className="flex flex-wrap items-end justify-between gap-4">
           <h2 className="font-display text-4xl font-bold tracking-tight">Resume</h2>
-          <a href={profile.resumeFile} className="btn btn-primary" download>
+          <a href={profile.resumeFile} className="btn btn-secondary" download>
             Download PDF
           </a>
         </div>
@@ -18,14 +18,14 @@ function Resume() {
               {experience.map((job) => (
                 <li key={`${job.role}-${job.dates}`} className="relative pb-10 pl-8 last:pb-0">
                   <span
-                    className="absolute -left-[9px] top-1.5 h-4 w-4 rounded-full border-2 border-primary bg-base-100"
+                    className="absolute -left-[9px] top-1.5 h-4 w-4 rounded-full border-2 border-secondary bg-base-100"
                     aria-hidden="true"
                   />
                   <p className="text-sm text-base-content/70">{job.dates}</p>
                   <p className="font-display text-xl font-semibold">{job.role}</p>
                   <p className="text-base-content/80">{job.org}</p>
                   {job.bullets.length > 0 && (
-                    <ul className="mt-3 list-disc space-y-1 pl-5 marker:text-primary">
+                    <ul className="mt-3 list-disc space-y-1 pl-5 marker:text-secondary">
                       {job.bullets.map((b) => (
                         <li key={b}>{b}</li>
                       ))}
